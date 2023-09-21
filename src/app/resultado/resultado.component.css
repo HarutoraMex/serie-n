@@ -1,0 +1,8 @@
+.caja-gris{
+  border-radius: 1rem;
+  border: #000000 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}

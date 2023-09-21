@@ -1,0 +1,7 @@
+<form [formGroup]="formularioSerie">
+  <div class="flex flex-column gap-2">
+    <label htmlFor="username"><strong>Numero:</strong></label>
+    <p-inputNumber (ngModelChange)="enviarNumero()" [min]="0" [max]="39" inputId="integeronly" formControlName="numero"> </p-inputNumber>
+    <small id="username-help">Ingresa un numero natural.</small>
+  </div>
+</form>
